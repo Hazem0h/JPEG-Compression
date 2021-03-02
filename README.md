@@ -23,6 +23,7 @@ On my local machine (i7-8550u), the compression takes from 4 to 5 seconds. This 
 * We will then unroll every block into a 1D array. We can then leverage the matrix sparsity by first traversing the matrix in a ZigZag pattern, such that the zeros tend to form continuous sequences. These sequences can be compressed (lossless) using **Runlength code**
 * The output of the Runlengh code is furhter compressed (lossless) using entropy code, where I used **Huffman code**
 * The length of the final compressed stream is compared to the orignal stream, and thus we can compute the compression ratio
+
 In order to decode the compressed stream, each step is reversed.
 
 ### File Organisation
