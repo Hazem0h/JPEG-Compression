@@ -10,4 +10,7 @@ In the jupyter notebook, I go step by step in the process of encoding and decodi
 
 ## The image after compression, with 1/10 the original size
 <center>
-<img src="Compressed_with_specs.jpeg">
+<img src="Compressed_with_specs.jpeg" width=400>
+</center>
+
+On my local machine (i7-8550u), the compression takes from 4 to 5 seconds. This is also reported inside the notebook.
