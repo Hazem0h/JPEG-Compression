@@ -8,7 +8,7 @@ In the jupyter notebook, I go step by step in the process of encoding and decodi
 <img src="Original_HD_grayscale.jpeg" width = 400>
 </center>
 
-### The image after compression, with 1/10 the original size
+### The image after compression, with compressed stream length 1/10 the original size
 <center>
 <img src="Compressed_with_specs.jpeg" width=400>
 </center>
