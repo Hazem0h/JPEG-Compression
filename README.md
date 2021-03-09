@@ -1,7 +1,7 @@
 # JPEG-Compression-grayscale
 This is an implementation of the JPEG compression algorithm for grayscale images.
 
-In the jupyter notebook, I go step by step in the process of encoding and decoding. The notebook also offers a vectorized implementation of the Discrete Cosing Transform
+In the jupyter notebook, I go step by step in the process of encoding and decoding. The notebook also offers a vectorized implementation of the Discrete Cosine Transform
 
 ### Demo: The HD image before compression
 <center>
